@@ -1,0 +1,32 @@
+LINUX 进程间通信方式：
+
+UNIX： /*  传统， 绝大多数类UNIX系统都支持 */
+	有名管道：mkfifo write read close
+	无名管道：pipe write read close
+	信号：	signal kill raise pause alarm 
+	
+POSIX:	/*  较新，未来主流系统接口的标准，接口简单轻量 */
+	信号量： man sem_overview
+		有名：sem_open sem_close sem_unlink
+		无名：sem_init sem_destroy
+		sem_post sem_wait sem_getvalue
+	共享内存： man shm_overview
+		shm_open shm_unlink mmap munmap
+	消息队列： man mq_overview
+		mq_open mq_close mq_unlink mq_send mq_receive
+
+system V: /* 古老，部分类UNIX系统支持，接口复杂繁琐 */
+	信号量集：
+		semget semctl semop
+	共享内存：
+		shmget shmctl shmat shmdt
+	消息队列：
+		msgget msgctl msgsnd msgrcv
+
+BSD: 	/* 功能强大，适合构建CS架构的复杂进程关系 */
+	连接：
+		SERVER: socket bind listen accept recv send close 
+		CLIENT: socket bind connect send recv close
+	无连接：
+		SERVER: socket bind recvfrom sendto close
+		CLIENT: socket bind sendto recvfrom close

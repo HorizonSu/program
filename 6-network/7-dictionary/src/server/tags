@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -c -O2 -Wall $(HEADS_PATH)$/;"	m
+COMM_PATH	Makefile	/^COMM_PATH?=..\/comm$/;"	m
+DB_PATH	server.h	19;"	d
+DICT_FILE	server.h	18;"	d
+HEADS_PATH	Makefile	/^HEADS_PATH= -I$(COMM_PATH)$/;"	m
+HIST_TABLE	server.h	22;"	d
+LDFLAGS	Makefile	/^LDFLAGS= -lsqlite3 -lnetdevice -lpthread -ldl  $(LIBS_PATH)$/;"	m
+LIBS_PATH	Makefile	/^LIBS_PATH= -L$(COMM_PATH)$/;"	m
+LOADING_STYLE	server.h	24;"	d
+OBJS	Makefile	/^OBJS:= server.o useropt.o dbopt.o$/;"	m
+PSWD_TABLE	server.h	20;"	d
+SER_OBJ	Makefile	/^SER_OBJ?=server$/;"	m
+WORD_TABLE	server.h	21;"	d
+_getfilesize_	dbopt.c	/^int _getfilesize_(const char *filename)$/;"	f	signature:(const char *filename)
+_getfilesize_	dbopt.c	/^int _getfilesize_(const char *filename);$/;"	p	file:	signature:(const char *filename)
+_user_status_	server.h	/^typedef struct _user_status_{$/;"	s
+_user_status_::name	server.h	/^	char name[TITLE_LEN];$/;"	m	struct:_user_status_	access:public
+_user_status_::status	server.h	/^	int status;$/;"	m	struct:_user_status_	access:public
+db_create	dbopt.c	/^int db_create(sqlite3 *mydb, char *table)$/;"	f	signature:(sqlite3 *mydb, char *table)
+db_create	server.h	/^extern int db_create(sqlite3 *mydb, char *table);$/;"	p	signature:(sqlite3 *mydb, char *table)
+db_insert	dbopt.c	/^int db_insert(sqlite3 *mydb, char *table, datapack_st *data)$/;"	f	signature:(sqlite3 *mydb, char *table, datapack_st *data)
+db_insert	server.h	/^extern int db_insert(sqlite3 *mydb, char *table, datapack_st *data);$/;"	p	signature:(sqlite3 *mydb, char *table, datapack_st *data)
+db_load_data	dbopt.c	/^int db_load_data(sqlite3 *mydb)$/;"	f	signature:(sqlite3 *mydb)
+db_load_data	server.h	/^extern int db_load_data(sqlite3 *mydb);$/;"	p	signature:(sqlite3 *mydb)
+db_query_data	dbopt.c	/^int db_query_data(sqlite3 *mydb, char *table, datapack_st *data)$/;"	f	signature:(sqlite3 *mydb, char *table, datapack_st *data)
+db_query_data	server.h	/^extern int db_query_data(sqlite3 *mydb, char *table, datapack_st *data);$/;"	p	signature:(sqlite3 *mydb, char *table, datapack_st *data)
+db_query_table	dbopt.c	/^int db_query_table(sqlite3 *mydb, char *table, datapack_st *data)$/;"	f	signature:(sqlite3 *mydb, char *table, datapack_st *data)
+db_query_table	server.h	/^extern int db_query_table(sqlite3 *mydb, char *table, datapack_st *data);$/;"	p	signature:(sqlite3 *mydb, char *table, datapack_st *data)
+main	server.c	/^int main()$/;"	f
+name	server.h	/^	char name[TITLE_LEN];$/;"	m	struct:_user_status_	access:public
+pack_net_mesg	useropt.c	/^int pack_net_mesg(datapack_st *mesgbuff, char *title, char *info, int type)$/;"	f	signature:(datapack_st *mesgbuff, char *title, char *info, int type)
+select_callback	server.h	/^extern int select_callback(void *arg, int nu, char **value, char **name);$/;"	p	signature:(void *arg, int nu, char **value, char **name)
+select_callback	useropt.c	/^int select_callback(void *arg, int nu, char **value, char **name)$/;"	f	signature:(void *arg, int nu, char **value, char **name)
+status	server.h	/^	int status;$/;"	m	struct:_user_status_	access:public
+sys_init_database	dbopt.c	/^sqlite3 *sys_init_database()$/;"	f
+sys_init_database	server.h	/^extern sqlite3 *sys_init_database(void);$/;"	p	signature:(void)
+sys_init_networks	server.c	/^int sys_init_networks(void)$/;"	f	signature:(void)
+sys_init_networks	server.h	/^extern int sys_init_networks(void);$/;"	p	signature:(void)
+us	server.c	/^userstatus_st us;$/;"	v
+user_annul	server.h	/^extern int user_annul(int connfd, datapack_st *mesgbuff, sqlite3 *mydb);$/;"	p	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_annul	useropt.c	/^int user_annul(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)$/;"	f	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_history	server.h	/^extern int user_history(int connfd, datapack_st *mesgbuff, sqlite3 *mydb);$/;"	p	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_history	useropt.c	/^int user_history(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)$/;"	f	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_login	server.h	/^extern int user_login(int connfd, datapack_st *mesgbuff, sqlite3 *mydb);$/;"	p	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_login	useropt.c	/^int user_login(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)$/;"	f	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_logout	server.h	/^extern int user_logout(int connfd, datapack_st *mesgbuff, sqlite3 *mydb);$/;"	p	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_logout	useropt.c	/^int user_logout(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)$/;"	f	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_register	server.h	/^extern int user_register(int connfd, datapack_st *mesgbuff, sqlite3 *mydb);$/;"	p	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+user_register	useropt.c	/^int user_register(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)$/;"	f	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+userstatus_st	server.h	/^}userstatus_st;$/;"	t	typeref:struct:_user_status_
+word_query	server.h	/^extern int word_query(int connfd, datapack_st *mesgbuff, sqlite3 *mydb);$/;"	p	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)
+word_query	useropt.c	/^int word_query(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)$/;"	f	signature:(int connfd, datapack_st *mesgbuff, sqlite3 *mydb)

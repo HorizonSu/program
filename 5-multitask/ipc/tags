@@ -1,0 +1,227 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	pipe/exercise/expression/Makefile	/^AR:=ar $/;"	m
+ARCLAGS	pipe/exercise/expression/Makefile	/^ARCLAGS:= cr$/;"	m
+BUFF_SIZE	pipe/brokenpipe.c	13;"	d	file:
+BUFF_SIZE	pipe/exercise/expression/stack.h	8;"	d
+BUFF_SIZE	pipe/fifo_r.c	14;"	d	file:
+BUFF_SIZE	pipe/fifo_w.c	14;"	d	file:
+BUFF_SIZE	pipe/file_ipc.c	13;"	d	file:
+BUFF_SIZE	pipe/pipe.c	10;"	d	file:
+BUFF_SIZE	pipe/pipeblock.c	11;"	d	file:
+BUFF_SIZE	pipe/pipesize.c	13;"	d	file:
+BUFF_SIZE	sem/exercise/head.h	23;"	d
+BUF_SIZE	sem/sem_pack.c	12;"	d	file:
+CC	mesg/exercise/chat/Makefile	/^CC:=gcc$/;"	m
+CC	pipe/exercise/Makefile	/^CC:=gcc$/;"	m
+CC	pipe/exercise/expression/Makefile	/^CC:=gcc$/;"	m
+CC	sem/exercise/Makefile	/^CC:=gcc$/;"	m
+CC	shm/bomb/Makefile	/^CC:= gcc$/;"	m
+CFALGS	pipe/exercise/Makefile	/^CFALGS:= -Wall -O2 -c$/;"	m
+CFALGS	pipe/exercise/expression/Makefile	/^CFALGS:= -O2 -Wall -c$/;"	m
+CFLAGS	mesg/exercise/chat/Makefile	/^CFLAGS:=-Wall -O2$/;"	m
+CFLAGS	sem/exercise/Makefile	/^CFLAGS:=-Wall -O2 $/;"	m
+CFLAGS	shm/bomb/Makefile	/^CFLAGS:= -Wall -O2 -lpthread$/;"	m
+CMD_DENG	mesg/exercise/smarthome/home_head.h	11;"	d
+CMD_KONGTIAO	mesg/exercise/smarthome/home_head.h	9;"	d
+CMD_RESHUI	mesg/exercise/smarthome/home_head.h	10;"	d
+ERROR	pipe/pipe.c	11;"	d	file:
+ERROR	pipe/pipeblock.c	12;"	d	file:
+ERROR	sem/exercise/head.h	17;"	d
+ERROR_EXIT	mesg/exercise/chat/chat1.c	12;"	d	file:
+ERROR_EXIT	mesg/exercise/chat/chat2.c	12;"	d	file:
+ERROR_EXIT	mesg/mesg_opt.c	11;"	d	file:
+ERROR_EXIT	pipe/brokenpipe.c	11;"	d	file:
+ERROR_EXIT	pipe/exercise/main.c	9;"	d	file:
+ERROR_EXIT	pipe/fifo_r.c	11;"	d	file:
+ERROR_EXIT	pipe/fifo_w.c	11;"	d	file:
+ERROR_EXIT	pipe/file_ipc.c	11;"	d	file:
+ERROR_EXIT	pipe/pipesize.c	11;"	d	file:
+ERROR_EXIT	shm/demo/shmr.c	11;"	d	file:
+ERROR_EXIT	shm/demo/shmw.c	11;"	d	file:
+ERROR_EXIT	shm/game/head.h	17;"	d
+ERROR_EXIT	shm/shm_opt.c	11;"	d	file:
+ERROR_EXIT	signal/alarm.c	9;"	d	file:
+ERROR_EXIT	signal/game/game_a.c	12;"	d	file:
+ERROR_EXIT	signal/game/game_b.c	11;"	d	file:
+ERROR_EXIT	signal/kill.c	9;"	d	file:
+ERROR_EXIT	signal/signal.c	9;"	d	file:
+FIFO_PATH	pipe/fifo_r.c	13;"	d	file:
+FIFO_PATH	pipe/fifo_w.c	13;"	d	file:
+FILE_PATH	signal/game/game_a.c	13;"	d	file:
+FILE_PATH	signal/game/game_b.c	12;"	d	file:
+IPC_KEY	mesg/exercise/smarthome/home_head.h	6;"	d
+IPC_KEY	sem/semopt.c	12;"	d	file:
+IS_DIGIT	pipe/exercise/expression/stack.h	10;"	d
+KEY_FILE	sem/semopt.c	13;"	d	file:
+KEY_FPATH	shm/demo/shmw.c	14;"	d	file:
+KEY_MAGIC	sem/semopt.c	14;"	d	file:
+KEY_MAGIC	shm/demo/shmw.c	15;"	d	file:
+KEY_VALUE	mesg/exercise/chat/chat1.c	14;"	d	file:
+KEY_VALUE	mesg/exercise/chat/chat2.c	14;"	d	file:
+KEY_VALUE	mesg/mesg_opt.c	13;"	d	file:
+KEY_VALUE	sem/exercise/head.h	21;"	d
+KEY_VALUE	sem/sem_pack.c	13;"	d	file:
+KEY_VALUE	shm/bomb/head.h	24;"	d
+KEY_VALUE	shm/demo/shmr.c	13;"	d	file:
+KEY_VALUE	shm/demo/shmw.c	13;"	d	file:
+KEY_VALUE	shm/game/head.h	25;"	d
+KEY_VALUE	shm/shm_opt.c	12;"	d	file:
+LIB	pipe/exercise/Makefile	/^LIB:=libexpress.a$/;"	m
+LIB	pipe/exercise/expression/Makefile	/^LIB?=libexpress.a$/;"	m
+LIBS_PATH	pipe/exercise/Makefile	/^LIBS_PATH:=.\/lib$/;"	m
+LIBS_PATH	pipe/exercise/expression/Makefile	/^LIBS_PATH?=.$/;"	m
+MEM_SIZE	sem/exercise/head.h	20;"	d
+MEM_SIZE	shm/demo/shmw.c	18;"	d	file:
+MEM_SIZE	shm/game/head.h	26;"	d
+MSG_SIZE	mesg/exercise/chat/chat1.c	15;"	d	file:
+MSG_SIZE	mesg/exercise/chat/chat2.c	15;"	d	file:
+MSG_SIZE	mesg/mesg_opt.c	14;"	d	file:
+MSG_TYPE1	mesg/exercise/chat/chat1.c	16;"	d	file:
+MSG_TYPE1	mesg/exercise/chat/chat2.c	16;"	d	file:
+MSG_TYPE2	mesg/exercise/chat/chat1.c	17;"	d	file:
+MSG_TYPE2	mesg/exercise/chat/chat2.c	17;"	d	file:
+OBJ	pipe/exercise/expression/Makefile	/^OBJ:= $(LIB)$/;"	m
+OBJS	mesg/exercise/chat/Makefile	/^OBJS:=chat1 chat2$/;"	m
+OBJS	sem/exercise/Makefile	/^OBJS:=reader writer$/;"	m
+OPT_OFF	mesg/exercise/smarthome/home_head.h	14;"	d
+OPT_ON	mesg/exercise/smarthome/home_head.h	13;"	d
+SEMNUMS	sem/semopt.c	16;"	d	file:
+SEM_READ	shm/bomb/head.h	25;"	d
+SEM_WRITE	shm/bomb/head.h	26;"	d
+SHM_ADDR	shm/demo/shmw.c	16;"	d	file:
+SHM_SIZE	shm/bomb/head.h	23;"	d
+SMSG_CGI_TYPE	mesg/exercise/smarthome/home_head.h	7;"	d
+STACK_SIZE	pipe/exercise/expression/stack.h	7;"	d
+SeqStack	pipe/exercise/expression/stack.h	/^}SeqStack;$/;"	t	typeref:struct:_sequence_stack_
+__EXPRESS_H__	pipe/exercise/expression/express.h	2;"	d
+__HEAD_H__	sem/exercise/head.h	2;"	d
+__HEAD_H__	shm/bomb/head.h	4;"	d
+__HEAD_H__	shm/game/head.h	4;"	d
+__HOME_HEAD_H__	mesg/exercise/smarthome/home_head.h	2;"	d
+__STACK_H__	pipe/exercise/expression/stack.h	2;"	d
+_ctl_info_	mesg/exercise/smarthome/home_head.h	/^struct _ctl_info_ {$/;"	s
+_debug_seqstack_	pipe/exercise/expression/stack.c	/^void _debug_seqstack_(SeqStack *stack)$/;"	f
+_mesg_	signal/game/game_a.c	/^typedef struct _mesg_ {$/;"	s	file:
+_mesg_	signal/game/game_b.c	/^typedef struct _mesg_ {$/;"	s	file:
+_mesg_buff_	mesg/exercise/chat/chat1.c	/^typedef struct _mesg_buff_{$/;"	s	file:
+_mesg_buff_	mesg/exercise/chat/chat2.c	/^typedef struct _mesg_buff_{$/;"	s	file:
+_mesg_buff_	mesg/mesg_opt.c	/^typedef struct _mesg_buff_	{$/;"	s	file:
+_mesg_pack_	shm/game/head.h	/^typedef struct _mesg_pack_ {$/;"	s
+_mesginfo_	sem/exercise/head.h	/^typedef struct _mesginfo_{$/;"	s
+_mesginfo_	shm/bomb/head.h	/^typedef struct _mesginfo_ {$/;"	s
+_msq_info_	mesg/exercise/smarthome/home_head.h	/^struct _msq_info_ {$/;"	s
+_sequence_stack_	pipe/exercise/expression/stack.h	/^typedef struct _sequence_stack_{$/;"	s
+buff	sem/exercise/head.h	/^	char buff[BUFF_SIZE];$/;"	m	struct:_mesginfo_
+buff	shm/game/gamea.c	/^mesg_st *buff;$/;"	v
+buff	shm/game/gameb.c	/^mesg_st *buff;$/;"	v
+c_opt	mesg/exercise/smarthome/home_head.h	/^	int c_opt;$/;"	m	struct:_ctl_info_
+c_type	mesg/exercise/smarthome/home_head.h	/^	int c_type;$/;"	m	struct:_ctl_info_
+c_value	mesg/exercise/smarthome/home_head.h	/^	int c_value;$/;"	m	struct:_ctl_info_
+compute	pipe/exercise/expression/express.c	/^int compute(int opd1, int opd2, int opt)$/;"	f
+counter	signal/test/receiver.c	/^int counter;$/;"	v
+counter	signal/test/sender.c	/^int counter;$/;"	v
+creat_seqstack	pipe/exercise/expression/stack.c	/^SeqStack *creat_seqstack(int len)$/;"	f
+data	pipe/exercise/expression/stack.h	/^	int *data;$/;"	m	struct:_sequence_stack_
+error_exit	sem/sem_pack.c	11;"	d	file:
+error_exit	sem/semopt.c	11;"	d	file:
+error_exit	shm/bomb/head.h	21;"	d
+express	pipe/exercise/expression/express.c	/^int express(char *buff)$/;"	f
+fd	signal/game/game_a.c	/^int fd;$/;"	v
+fd	signal/game/game_b.c	/^int fd;$/;"	v
+free_seqstack	pipe/exercise/expression/stack.c	/^int free_seqstack(SeqStack *stack)$/;"	f
+gettop_seqstack	pipe/exercise/expression/stack.c	/^int gettop_seqstack(SeqStack *stack, int *dest)$/;"	f
+info	mesg/exercise/chat/chat1.c	/^	char info[MSG_SIZE];$/;"	m	struct:_mesg_buff_	file:
+info	mesg/exercise/chat/chat2.c	/^	char info[MSG_SIZE];$/;"	m	struct:_mesg_buff_	file:
+int32_p	signal/signal.c	/^typedef int * int32_p;$/;"	t	file:
+isempty_seqstack	pipe/exercise/expression/stack.c	/^int isempty_seqstack(SeqStack *stack)$/;"	f
+isfull_seqstack	pipe/exercise/expression/stack.c	/^int isfull_seqstack(SeqStack *stack)$/;"	f
+len	pipe/exercise/expression/stack.h	/^	int len;$/;"	m	struct:_sequence_stack_
+main	mesg/exercise/chat/chat1.c	/^int main()$/;"	f
+main	mesg/exercise/chat/chat2.c	/^int main()$/;"	f
+main	mesg/exercise/smarthome/cgi.c	/^int main(int argc, const char **argv)$/;"	f
+main	mesg/exercise/smarthome/server.c	/^int main()$/;"	f
+main	mesg/mesg_opt.c	/^int main(int argc, char **argv)$/;"	f
+main	mesg/mesgstat.c	/^int main()$/;"	f
+main	pipe/brokenpipe.c	/^int main()$/;"	f
+main	pipe/exercise/main.c	/^int main()$/;"	f
+main	pipe/fifo_r.c	/^int main()$/;"	f
+main	pipe/fifo_w.c	/^int main()$/;"	f
+main	pipe/file_ipc.c	/^int main()$/;"	f
+main	pipe/pipe.c	/^int main(int argc, const char *argv[])$/;"	f
+main	pipe/pipeblock.c	/^int main(int argc, const char *argv[])$/;"	f
+main	pipe/pipesize.c	/^int main()$/;"	f
+main	sem/exercise/reader.c	/^int main(int argc, char **argv)$/;"	f
+main	sem/exercise/writer.c	/^int main(void)$/;"	f
+main	sem/sem_pack.c	/^int main()$/;"	f
+main	sem/semopt.c	/^int main()$/;"	f
+main	shm/bomb/officer.c	/^int main()$/;"	f
+main	shm/bomb/soldier.c	/^int main()$/;"	f
+main	shm/demo/shmr.c	/^int main()$/;"	f
+main	shm/demo/shmw.c	/^int main()$/;"	f
+main	shm/game/gamea.c	/^int main()$/;"	f
+main	shm/game/gameb.c	/^int main()$/;"	f
+main	shm/shm_opt.c	/^int main()$/;"	f
+main	signal/alarm.c	/^int main()$/;"	f
+main	signal/game/game_a.c	/^int main()$/;"	f
+main	signal/game/game_b.c	/^int main()$/;"	f
+main	signal/kill.c	/^int main(int argc, char *argv[])$/;"	f
+main	signal/pause.c	/^int main()$/;"	f
+main	signal/signal.c	/^int main()$/;"	f
+main	signal/test/receiver.c	/^int main()$/;"	f
+main	signal/test/sender.c	/^int main(int argc, const char **argv)$/;"	f
+mctl	mesg/exercise/smarthome/home_head.h	/^	struct _ctl_info_ mctl;$/;"	m	struct:_msq_info_	typeref:struct:_msq_info_::_ctl_info_
+mesg	signal/game/game_a.c	/^mesg_st mesg;$/;"	v
+mesg	signal/game/game_b.c	/^mesg_st mesg;$/;"	v
+mesg_st	shm/bomb/head.h	/^}mesg_st;$/;"	t	typeref:struct:_mesginfo_
+mesg_st	shm/game/head.h	/^}mesg_st;$/;"	t	typeref:struct:_mesg_pack_
+mesg_st	signal/game/game_a.c	/^}mesg_st;$/;"	t	typeref:struct:_mesg_	file:
+mesg_st	signal/game/game_b.c	/^}mesg_st;$/;"	t	typeref:struct:_mesg_	file:
+mesg_t	sem/exercise/head.h	/^}mesg_t;$/;"	t	typeref:struct:_mesginfo_
+minfo	mesg/mesg_opt.c	/^	char minfo[MSG_SIZE];$/;"	m	struct:_mesg_buff_	file:
+msgbuf_st	mesg/exercise/chat/chat1.c	/^}msgbuf_st;$/;"	t	typeref:struct:_mesg_buff_	file:
+msgbuf_st	mesg/exercise/chat/chat2.c	/^}msgbuf_st;$/;"	t	typeref:struct:_mesg_buff_	file:
+msgbuf_st	mesg/mesg_opt.c	/^}msgbuf_st;$/;"	t	typeref:struct:_mesg_buff_	file:
+mtype	mesg/exercise/smarthome/home_head.h	/^	long mtype;$/;"	m	struct:_msq_info_
+mtype	mesg/mesg_opt.c	/^	long mtype;$/;"	m	struct:_mesg_buff_	file:
+pid	signal/game/game_b.c	/^int pid;$/;"	v
+pida	shm/game/head.h	/^	pid_t pida,$/;"	m	struct:_mesg_pack_
+pida	signal/game/game_a.c	/^	pid_t pida,$/;"	m	struct:_mesg_	file:
+pida	signal/game/game_b.c	/^	pid_t pida,$/;"	m	struct:_mesg_	file:
+pidb	shm/game/head.h	/^		  pidb;$/;"	m	struct:_mesg_pack_
+pidb	signal/game/game_a.c	/^		  pidb;$/;"	m	struct:_mesg_	file:
+pidb	signal/game/game_b.c	/^		  pidb;$/;"	m	struct:_mesg_	file:
+pidr	sem/exercise/head.h	/^	int pidr;$/;"	m	struct:_mesginfo_
+pidr	shm/bomb/head.h	/^		  pidr;$/;"	m	struct:_mesginfo_
+pidw	sem/exercise/head.h	/^	int pidw;$/;"	m	struct:_mesginfo_
+pidw	shm/bomb/head.h	/^	pid_t pidw,$/;"	m	struct:_mesginfo_
+pipesize	pipe/pipeblock.c	/^int pipesize;$/;"	v
+pop_seqstack	pipe/exercise/expression/stack.c	/^int pop_seqstack(SeqStack *stack, int *dest)$/;"	f
+priority	pipe/exercise/expression/express.c	/^int priority(int operator)$/;"	f
+process_oprator	pipe/exercise/expression/express.c	/^int process_oprator(SeqStack *opdstack, SeqStack *optstack, int curr_opt)$/;"	f
+push_seqstack	pipe/exercise/expression/stack.c	/^int push_seqstack(SeqStack *stack, int value)$/;"	f
+semdistr	sem/sem_pack.c	/^int semdistr(int semid)$/;"	f
+seminit	sem/sem_pack.c	/^int seminit(int *semid, int value)$/;"	f
+semp	sem/sem_pack.c	/^int semp(int semid)$/;"	f
+semv	sem/sem_pack.c	/^int semv(int semid)$/;"	f
+semvalue	sem/sem_pack.c	/^int semvalue(int semid)$/;"	f
+shmid	shm/game/gamea.c	/^int shmid;$/;"	v
+shmid	shm/game/gameb.c	/^int shmid;$/;"	v
+sig_handler_t	signal/signal.c	/^typedef void(*sig_handler_t)(int);$/;"	t	file:
+signal_handler	shm/game/gamea.c	/^void signal_handler(int signo)$/;"	f
+signal_handler	shm/game/gameb.c	/^void signal_handler(int signo)$/;"	f
+signal_handler	signal/signal.c	/^void signal_handler(int signo)$/;"	f
+signal_hangler	signal/game/game_a.c	/^void signal_hangler(int signo)$/;"	f
+signal_hangler	signal/game/game_b.c	/^void signal_hangler(int signo)$/;"	f
+top	pipe/exercise/expression/stack.h	/^	int top;$/;"	m	struct:_sequence_stack_
+type	mesg/exercise/chat/chat1.c	/^	long type;$/;"	m	struct:_mesg_buff_	file:
+type	mesg/exercise/chat/chat2.c	/^	long type;$/;"	m	struct:_mesg_buff_	file:
+usr1_handler	signal/test/receiver.c	/^void usr1_handler(int signo)$/;"	f
+value	shm/bomb/head.h	/^	int value;$/;"	m	struct:_mesginfo_
+value	shm/game/head.h	/^	int value;$/;"	m	struct:_mesg_pack_
+value	signal/game/game_a.c	/^	int value;$/;"	m	struct:_mesg_	file:
+value	signal/game/game_b.c	/^	int value;$/;"	m	struct:_mesg_	file:
